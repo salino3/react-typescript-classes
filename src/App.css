@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #007F5F;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* FirstPage CardComponent MyButton */
+
+.color1{
+  color: #55A640;
+}
+
+.color2{
+  color: red;
+}
+
+.divMyComponent{
+  background: white;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.myButtonTool{
+
+  margin: 1em;
+  padding: 1em;
+  border-radius: 20%;
+  background: blue;
+  color: orange;
+  border: none;
+
+}
+
+.myButtonTool:active{
+  border: solid 3px yellow;
+  color: yellow;
+    padding: 0.7em;
+
+}
+
+/* SecondPage */
+
+.myFormSecondPage{
+  border: solid 2px white;
+  padding: 3em;
+  border-radius: 20%;
+}
+
+.myFormSecondPage input {
+  margin: 1em;
+}
+
+.buttonFormSecondPage{
+
+  margin: 1em;
+  padding: 1em;
+  border-radius: 20%;
+  background: purple;
+  color: orange;
+  border: none;
+
+}
+
+.buttonFormSecondPage:active{
+  border: solid 3px yellow;
+  color: yellow;
+    padding: 0.7em;
+
+}
