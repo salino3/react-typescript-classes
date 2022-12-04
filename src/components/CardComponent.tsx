@@ -7,7 +7,7 @@ import { MyButton } from "./MyButton";
 export const CardComponent = () => {
   const [first, setFirst] = useState(true);
 
-  const Chanching = () => {
+  const Changing = () => {
     setFirst(!first);
 
     dev2.Change(first);
@@ -19,7 +19,7 @@ export const CardComponent = () => {
       <MyButton
         setY={setFirst}
         x={first}
-        Chanchingx={Chanching}
+        Changingx={Changing}
       />
 
       <div className="divMyComponent">{myText2}</div>
