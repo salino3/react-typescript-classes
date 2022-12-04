@@ -21,10 +21,7 @@ firstRef.current.value = "";
 secondRef.current.value = "";
 thirdRef.current.value = "";
 
-
-
  };
-
 
   let form1 = new Form("", "", "");
 

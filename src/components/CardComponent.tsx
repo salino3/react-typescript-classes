@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { dev2 } from "../Classes/Worker";
 import { MyButton } from "./MyButton";
+import { Tool } from "../Classes/Tool";
+
 
 
 
@@ -14,6 +16,13 @@ export const CardComponent = () => {
   };
 
   let myText2 = dev2.Working();
+
+  
+  let div2 = new Tool("", myText2);
+
+  let myDiv2 = div2.Div("divMyComponent");
+
+
   return (
     <>
       <MyButton
@@ -22,7 +31,7 @@ export const CardComponent = () => {
         Changingx={Changing}
       />
 
-      <div className="divMyComponent">{myText2}</div>
+     {myDiv2}
     </>
   );
 };
